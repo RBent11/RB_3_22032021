@@ -1,0 +1,19 @@
+{
+  "name": "rachidabentebiche_3_22032021",
+  "version": "1.0.0",
+  "description": "Oh My Food projet 3 OCR",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./sass_style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rachida92/RachidaBentebiche_3_22032021.git"
+  },
+  "author": "Rachida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rachida92/RachidaBentebiche_3_22032021/issues"
+  },
+  "homepage": "https://github.com/Rachida92/RachidaBentebiche_3_22032021#readme"
+}
