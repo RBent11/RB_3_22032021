@@ -1,0 +1,40 @@
+#footer{
+	background-color: #353535;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+}
+
+.footer__list_box{
+
+	display: flex;
+	flex-direction: column;
+}
+
+.logo-footer{
+	width: 100px;
+	height: 18px;
+	color: white;
+	filter: invert(100%);
+	margin-bottom: 30px; 
+
+}
+
+.proposer-un-restau{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+}
+
+
+.footer-link{
+	color:#fff;
+	margin-bottom: 10px;
+}
+
+.footer-icon{
+	color:#fff;
+	margin-right: 5px;
+	width: 8%;
+}

@@ -1,0 +1,407 @@
+/*! *******************************************************************************/
+/*! ***************************** GLOBAL ******************************************/
+/*! *******************************************************************************/
+
+@font-face {
+	font-family: "Roboto";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-Regular.ttf");	
+}
+
+@font-face {
+	font-family: "Roboto-Thin";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Light";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Medium";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Black";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Bold";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-Bold.ttf");	
+}
+
+@font-face{
+	font-family: "Roboto-BoldCondensed";
+    src: url("Maquettes Ohmyfood/roboto/Roboto-BoldCondensed.ttf");
+}
+
+
+*{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+a{text-decoration: none; color: black;}
+
+body{position: relative;}
+
+.gradient-style-button {
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	background: linear-gradient(#ff79da, #9356dc);
+	border: none;
+	color: #fff;
+	box-shadow: 1px 5px 10px 0px #aeaeae;
+  }
+  
+.explorer-restau__link{
+	color: #fff;
+}
+
+
+.header{
+	height: 120px;
+	background-color: #EAEAEA;
+	position: relative;
+}
+
+.header-menu{
+	height:60px;
+}
+
+.bg-menu{
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	z-index: -1;
+	top:50px;
+}
+
+
+.logo{
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.logo-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	box-shadow: 0px 2px 5px 1px #D4D4D4;
+	background-color: white;
+}
+
+.logo-box-menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	background-color: white;
+}
+
+
+
+.retour{
+	position: absolute;
+	top: 25px;
+	left:10px;
+}
+
+.localisation{
+	margin-top:20px; 
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.localisation p{margin-left: 10px;}
+
+
+
+#explorer-restau{
+	height: 300px;
+	background-color: #f6f6f6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#explorer-restau > *{
+	margin-bottom: 20px;
+}
+
+#fonctionnement{
+	height: auto;
+	background-color: #fff;
+	
+}
+
+.section-title{
+	padding: 30px;
+}
+
+.fonctionnement__list-box{
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	text-align: center;
+  }
+  
+.button {
+	
+	position: relative;
+	height: 60px;
+	width: 300px;
+	display: flex;
+	border-radius: 18px;
+	box-shadow: 2px 2px 5px 1px #e7e7e7;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6f6f6;
+	margin-bottom: 30px;
+  }
+  
+.number {
+	background-color: #9356dc;
+	color: white;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	left: -12.5px;
+	font-size: 12px;
+  }
+  
+.icon {
+	margin-right: 0px;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	color: #878787;
+  }
+  
+.text-list {
+	display: flex;
+	width: 70%;
+	font-family: "Roboto-Medium";
+	font-size: 14px;
+  }
+  
+.button:hover {
+	background-color: #f5edff;
+  }
+  
+.button:hover > .icon {
+	color: #9356dc;
+  }
+
+
+#restaurants{
+	height: 100%;
+	background-color: #f6f6f6;
+	padding-bottom: 30px;
+}
+
+
+.restaurants__list-box{
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+ } 
+.carte-menu{
+    position: relative;
+    border-radius: 20px;
+    margin: 10px;
+    width: 310px;
+    height: 230px;
+    display: flex; 
+    align-items: flex-end;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px #aaaaaa; 
+	
+}
+
+.carte-info-menu{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    background-color:white;
+    flex-direction: column;  
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 10px;
+	line-height: 20px;
+}
+
+.carte-info-menu__localisation{
+	font-family: "Roboto-Light";
+	font-size: 16px;
+}
+
+.palette-gout{
+    background-image: url("Maquettes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"); 
+    background-size: cover; 
+	background-position-y: -30px; 
+      
+}
+
+
+.note-enchantee{
+    background-image: url("Maquettes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-size: cover;    
+    
+	background-position-y: -140px;
+      
+}
+
+.a-la-francaise{
+    background-image: url("Maquettes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");  
+    background-size: cover;   
+	background-position-y: -60px; 
+       
+}
+
+.delices-sens{
+    background-image: url("Maquettes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"); 
+    background-size: cover;
+	background-position-y: -60px;
+    
+}
+  
+.new{
+	position: absolute;
+	top:15px;
+	right: 15px;
+	background-color: #99e2d0;
+	color: #179475;
+	font-size: 12px;
+	width: 70px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-heart{
+	position: absolute;
+	bottom:20px;
+	right: 10px;
+}
+
+
+.a-la-francaise__heading{
+	position: relative;
+}
+.heart-menu{
+	position: absolute;
+	top:10px;
+	right: 30px;
+	font-size: 22px;
+	
+}
+
+
+#footer{
+	background-color: #353535;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+}
+
+.footer__list_box{
+
+	display: flex;
+	flex-direction: column;
+}
+
+.logo-footer{
+	width: 100px;
+	height: 18px;
+	color: white;
+	filter: invert(100%);
+	margin-bottom: 30px; 
+
+}
+
+.proposer-un-restau{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+}
+
+
+.footer-link{
+	color:#fff;
+	margin-bottom: 10px;
+}
+
+.footer-icon{
+	color:#fff;
+	margin-right: 5px;
+	width: 8%;
+}
+
+
+
+.button-box{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px 0px 0px;
+}
+
+
+
+
+#a-la-francaise{
+	margin-top: 200Px;
+	background-color: #F6F6F6;
+	border-radius: 40px 40px 0px 0px;
+	padding: 50px 0px 80px 0px;
+	height: 100%;
+}
+
+
+.carte{
+	position: relative;
+	background-color: white;
+	width: 340px;
+	height: 70px;
+	padding: 10px 10px;
+	line-height: 25px;
+	box-shadow: 1px 5px 10px 0px #aeaeae;
+	border-radius: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .price {
+	position: absolute;
+	right: 15px;
+	bottom: 5px;
+  }
+
+.all-food{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
