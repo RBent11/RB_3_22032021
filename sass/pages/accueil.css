@@ -1,4 +1,4 @@
-#explorer-restau {
+#explorer {
   height: 300px;
   background-color: #f6f6f6;
   display: -webkit-box;
@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-#explorer-restau > * {
+#explorer > * {
   margin-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@
   padding: 30px;
 }
 
-.fonctionnement__list-box {
+.fonctionnement__steps {
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,7 +46,7 @@
   text-align: center;
 }
 
-.button {
+.button-step {
   position: relative;
   height: 60px;
   width: 300px;
@@ -66,7 +66,7 @@
   margin-bottom: 30px;
 }
 
-.number {
+.number-step {
   background-color: #9356dc;
   color: white;
   width: 25px;
@@ -86,7 +86,7 @@
   font-size: 12px;
 }
 
-.icon {
+.icon-step {
   margin-right: 0px;
   width: 20%;
   display: -webkit-box;
@@ -98,7 +98,7 @@
   color: #878787;
 }
 
-.text-list {
+.text-step {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,11 +107,11 @@
   font-size: 14px;
 }
 
-.button:hover {
+.button-step:hover {
   background-color: #f5edff;
 }
 
-.button:hover > .icon {
+.button-step:hover > .icon-step {
   color: #9356dc;
 }
 
@@ -121,7 +121,7 @@
   padding-bottom: 30px;
 }
 
-.restaurants__list-box {
+.restaurants__choices {
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,7 +138,7 @@
           flex-direction: column;
 }
 
-.carte-menu {
+.restau-box {
   position: relative;
   border-radius: 20px;
   margin: 10px;
@@ -156,7 +156,7 @@
           box-shadow: 5px 5px 10px #aaaaaa;
 }
 
-.carte-info-menu {
+.restau-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,30 +175,30 @@
   line-height: 20px;
 }
 
-.carte-info-menu__localisation {
+.restau-info__localisation {
   font-family: "Roboto-Light";
   font-size: 16px;
 }
 
-.palette-gout {
+.palette {
   background-image: url("Maquettes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position-y: -30px;
 }
 
-.note-enchantee {
+.enchantee {
   background-image: url("Maquettes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
   background-position-y: -140px;
 }
 
-.a-la-francaise {
+.francaise {
   background-image: url("Maquettes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-size: cover;
   background-position-y: -60px;
 }
 
-.delices-sens {
+.delices {
   background-image: url("Maquettes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position-y: -60px;
@@ -224,62 +224,9 @@
           align-items: center;
 }
 
-.fa-heart {
+.restau-info-icon {
   position: absolute;
   bottom: 20px;
   right: 10px;
-}
-
-.a-la-francaise__heading {
-  position: relative;
-}
-
-.heart-menu {
-  position: absolute;
-  top: 10px;
-  right: 30px;
-  font-size: 22px;
-}
-
-#footer {
-  background-color: #353535;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 20px;
-}
-
-.footer__list_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.logo-footer {
-  width: 100px;
-  height: 18px;
-  color: white;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-  margin-bottom: 30px;
-}
-
-.proposer-un-restau {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 5px;
 }
 /*# sourceMappingURL=accueil.css.map */

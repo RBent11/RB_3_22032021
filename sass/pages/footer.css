@@ -10,7 +10,7 @@
   padding: 20px;
 }
 
-.footer__list_box {
+.footer__links-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,7 +20,7 @@
           flex-direction: column;
 }
 
-.logo-footer {
+.footer__logo {
   width: 100px;
   height: 18px;
   color: white;
@@ -29,7 +29,7 @@
   margin-bottom: 30px;
 }
 
-.proposer-un-restau {
+.footer__iconAndLink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

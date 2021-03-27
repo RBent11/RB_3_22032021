@@ -6,13 +6,13 @@
 
 }
 
-.footer__list_box{
+.footer__links-box{
 
 	display: flex;
 	flex-direction: column;
 }
 
-.logo-footer{
+.footer__logo{
 	width: 100px;
 	height: 18px;
 	color: white;
@@ -21,7 +21,7 @@
 
 }
 
-.proposer-un-restau{
+.footer__iconAndLink{
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 5px;
@@ -38,3 +38,4 @@
 	margin-right: 5px;
 	width: 8%;
 }
+
