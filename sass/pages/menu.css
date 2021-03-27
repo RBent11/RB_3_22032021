@@ -1,3 +1,69 @@
+@-webkit-keyframes rollIn {
+  0% {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes rollIn {
+  0% {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes apparition {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes apparition {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@-webkit-keyframes slideUp {
+  from {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .menu__heading {
   position: relative;
   margin: 0px 0px 50px 20px;
@@ -38,7 +104,7 @@
 .carte {
   position: relative;
   background-color: white;
-  width: 340px;
+  width: 360px;
   height: 70px;
   padding: 10px 10px;
   line-height: 25px;
@@ -46,12 +112,88 @@
           box-shadow: 1px 5px 10px 0px #aeaeae;
   border-radius: 20px;
   margin-bottom: 20px;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-animation: slideUp 2s forwards;
+          animation: slideUp 2s forwards;
+}
+
+.carte:hover {
+  cursor: pointer;
+}
+
+.carte:hover > .food__price {
+  right: 70px;
+}
+
+.carte:hover > .food__description {
+  right: 100px;
+}
+
+.carte:hover > .inside {
+  right: 0px;
+}
+
+.carte:hover > .inside > .check {
+  -webkit-animation: rollIn 0.5s ease-in-out;
+          animation: rollIn 0.5s ease-in-out;
+}
+
+.check {
+  color: white;
+  font-size: 20px;
+}
+
+.inside {
+  background-color: #99E2D0;
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  right: -60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+}
+
+.food__title {
+  left: 10px;
+  right: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .food__price {
   position: absolute;
-  right: 15px;
-  bottom: 5px;
+  right: 10px;
+  bottom: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.food__description {
+  left: 10px;
+  right: 0px;
+  top: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
 .menu {
@@ -71,11 +213,28 @@
 }
 
 .bg-menu {
-  width: 100%;
-  height: 250px;
+  width: 375px;
+  height: 350px;
   position: absolute;
   z-index: -1;
-  top: 50px;
+  top: 0px;
+  background-size: 100% 100%;
+}
+
+.pg {
+  background-image: url("../Maquettes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+.alf {
+  background-image: url("../Maquettes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
+.ds {
+  background-image: url("../Maquettes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+.ne {
+  background-image: url("../Maquettes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
 }
 
 .menu-part__title {

@@ -1,0 +1,32 @@
+@keyframes rollIn {
+    0% {
+      transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
+  
+
+@keyframes apparition {
+    0% {
+      right: -100px;
+    }
+  
+    100% {
+      right: 0px;
+    }
+}
+  
+
+@keyframes slideUp{
+    from{
+        transform:translateY(10px);
+        opacity: 0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity: 1; 
+    }
+}
