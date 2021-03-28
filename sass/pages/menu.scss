@@ -38,6 +38,16 @@
 	height: 100%;
 }
 
+$j:1;
+$k:0.5;
+
+ @for $i from 2 through 5{
+     .carte:nth-child(#{$j+1}){
+         animation: slideUp #{$k}s forwards;
+     }
+     $j:$j+1;
+     $k:$k+0.3;
+ }
 
 
 .carte{
@@ -53,7 +63,7 @@
     overflow: hidden;
 
     transition: 1s;
-    animation: slideUp 2s forwards; 
+    // animation: slideUp 2s forwards; 
 
     
 
@@ -74,7 +84,7 @@
         right: 0px;
     }
 
-    &:hover > .inside > .check{
+    &:hover  > .inside > .check{
         animation: rollIn 0.5s ease-in-out;
     }
 }
