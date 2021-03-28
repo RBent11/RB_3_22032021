@@ -1,0 +1,63 @@
+@media screen and (min-width: 750px) {
+  .button-step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500Px;
+    text-align: center;
+    padding: 0 30px;
+    position: relative;
+  }
+  .icon-step {
+    position: absolute;
+    left: 40px;
+    top: 22px;
+    font-size: 18px;
+  }
+  .text-step {
+    display: block;
+    width: 100%;
+  }
+  .restaurants__choices {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+  }
+  .restau-box {
+    width: 300Px;
+    margin: 20Px;
+  }
+  .bg-menu {
+    left: 10%;
+    top: 0;
+  }
+  .ds {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .menu-part {
+    margin: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

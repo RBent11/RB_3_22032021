@@ -1,5 +1,9 @@
 @mixin shadow {
 
-    box-shadow: 1px 5px 10px 0px #aeaeae;
+    box-shadow: 1px 5px 10px 0px #b8b4b4;
     
+}
+
+@mixin shadow-plus{
+    box-shadow: 1px 5px 10px 0px #797272;
 }

@@ -1,11 +1,23 @@
+@import "../base/shadow.scss";
+
+$light-purple:lighten(#9356dc, 1%);
+$light-pink:lighten(#ff79da, 1%);
+
+
 .gradient-style-button{
 	width: 200px;
 	height: 50px;
 	border-radius: 30px;
 	background: linear-gradient(#ff79da, #9356dc);
 	border: none;
+	@include shadow;
 	a{
 		color: #fff;
+		
+	}
+	&:hover{
+		background:linear-gradient($light-pink, $light-purple) ;
+		@include shadow-plus;
 	}
 	
 }
