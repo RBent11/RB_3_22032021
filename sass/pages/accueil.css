@@ -233,25 +233,35 @@
 
 .heart-icon {
   position: absolute;
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   right: 20px;
+  font-size: 26px;
 }
 
-.heart-empty svg g path {
-  z-index: -1;
-  fill-opacity: 1;
-}
-
-.heart-full svg g path {
+.heart-empty {
   z-index: 0;
-  fill-opacity: 0;
+  opacity: 1;
+}
+
+.heart-full {
+  z-index: 0;
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
+  background-clip: text;
   -webkit-transition: 1s;
   transition: 1s;
+  color: transparent;
 }
 
-.heart-full svg g path:hover {
-  fill-opacity: 1;
-  fill: url(#my-cool-gradient);
+.heart-full:hover {
+  opacity: 1;
+}
+
+.heart-full:hover ~ .heart-empty {
+  opacity: 0;
+  -webkit-transition: 0;
+  transition: 0;
 }
 /*# sourceMappingURL=accueil.css.map */

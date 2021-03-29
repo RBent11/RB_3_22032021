@@ -183,34 +183,44 @@
 
 .heart-icon{
 	position: absolute;
-	width: 22px;
-	height: 22px;
+	width: 26px;
+	height: 26px;
 	right: 20px;
+	font-size: 26px;
 
-	
 }
 
 
 
-.heart-empty svg g path{
+.heart-empty{
 	
-	z-index: -1;
-	fill-opacity: 1;
-}
-
-.heart-full svg g path{
 	z-index: 0;
-	fill-opacity: 0;
+	opacity: 1;
+
+
+}
+
+.heart-full{
+	z-index: 0;
+	opacity: 0;
 	// fill: red;
 	// fill: url(#my-cool-gradient);
 	
+	background: linear-gradient(#ff79da, #9356dc);
+  	background-clip: text;
+  	
 	transition: 1s;
+	color: transparent;
 	
-	
+		
 
 	&:hover{
-		fill-opacity: 1;
-		fill: url(#my-cool-gradient);
+		opacity: 1;	
+	}
+
+	&:hover ~ .heart-empty{
+		opacity: 0;
+		transition: 0;	
 	}
 }
 
