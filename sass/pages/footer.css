@@ -38,6 +38,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 5px;
+  vertical-align: baseline;
 }
 
 .footer-link {
@@ -48,6 +49,6 @@
 .footer-icon {
   color: #fff;
   margin-right: 5px;
-  width: 8%;
+  width: 25px;
 }
 /*# sourceMappingURL=footer.css.map */

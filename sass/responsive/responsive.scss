@@ -64,10 +64,13 @@
     .ne{}
 
 
+    .footer__links-box{
+
+        margin-left: 30px;
+    }
     
-    // .carte{
-    //     opacity:1;
-    // }
+
+    
 }
 
 
@@ -84,6 +87,14 @@
 
     .menu-part{
         margin: 20px;
+    }
+
+    .menu__heading{
+        width: 20%;
+    }
+
+    .footer__logo{
+        margin-left: 30px;
     }
 
 }

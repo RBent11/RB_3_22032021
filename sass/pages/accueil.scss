@@ -176,7 +176,43 @@
 .restau-info-icon{
 	position: absolute;
 	bottom:20px;
-	right: 10px;
+	right: 30px;
+	font-size: 30px;
+
 }
+
+.heart-icon{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	right: 20px;
+
+	
+}
+
+
+
+.heart-empty svg g path{
+	
+	z-index: -1;
+	fill-opacity: 1;
+}
+
+.heart-full svg g path{
+	z-index: 0;
+	fill-opacity: 0;
+	// fill: red;
+	// fill: url(#my-cool-gradient);
+	
+	transition: 1s;
+	
+	
+
+	&:hover{
+		fill-opacity: 1;
+		fill: url(#my-cool-gradient);
+	}
+}
+
 
 

@@ -355,7 +355,32 @@ a {
 .restau-info-icon {
   position: absolute;
   bottom: 20px;
-  right: 10px;
+  right: 30px;
+  font-size: 30px;
+}
+
+.heart-icon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  right: 20px;
+}
+
+.heart-empty svg g path {
+  z-index: -1;
+  fill-opacity: 1;
+}
+
+.heart-full svg g path {
+  z-index: 0;
+  fill-opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.heart-full svg g path:hover {
+  fill-opacity: 1;
+  fill: url(#my-cool-gradient);
 }
 
 @-webkit-keyframes rollIn {
@@ -427,13 +452,13 @@ a {
 .menu__heading {
   position: relative;
   margin: 0px 0px 50px 20px;
+  width: 90%;
 }
 
-.heart-menu {
+.menu__heading-heart {
   position: absolute;
-  top: 10px;
-  right: 30px;
-  font-size: 22px;
+  right: 0;
+  top: 5px;
 }
 
 .greenbar {
@@ -663,6 +688,7 @@ a {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 5px;
+  vertical-align: baseline;
 }
 
 .footer-link {
@@ -673,7 +699,7 @@ a {
 .footer-icon {
   color: #fff;
   margin-right: 5px;
-  width: 8%;
+  width: 25px;
 }
 
 .gradient-style-button {
@@ -741,6 +767,9 @@ a {
   .ds {
     width: 30%;
   }
+  .footer__links-box {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (min-width: 1220px) {
@@ -758,6 +787,12 @@ a {
   }
   .menu-part {
     margin: 20px;
+  }
+  .menu__heading {
+    width: 20%;
+  }
+  .footer__logo {
+    margin-left: 30px;
   }
 }
 /*# sourceMappingURL=style_sass.css.map */
