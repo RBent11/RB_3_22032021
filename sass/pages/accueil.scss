@@ -206,7 +206,7 @@
 	// fill: red;
 	// fill: url(#my-cool-gradient);
 	
-	background: linear-gradient(#ff79da, #9356dc);
+	background: linear-gradient(#9356dc, #ff79da);
   	background-clip: text;
   	
 	transition: 1s;
@@ -224,5 +224,13 @@
 	}
 }
 
+.heart-empty__menu{
+	top: 2px;
+	right: 0;
+}
 
+.heart-full__menu{
+	top: 0;
+	right: 0;
+}
 

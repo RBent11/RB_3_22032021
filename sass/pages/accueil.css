@@ -247,8 +247,8 @@
 .heart-full {
   z-index: 0;
   opacity: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(#ff79da, #9356dc);
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+  background: linear-gradient(#9356dc, #ff79da);
   background-clip: text;
   -webkit-transition: 1s;
   transition: 1s;
@@ -263,5 +263,15 @@
   opacity: 0;
   -webkit-transition: 0;
   transition: 0;
+}
+
+.heart-empty__menu {
+  top: 2px;
+  right: 0;
+}
+
+.heart-full__menu {
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=accueil.css.map */
