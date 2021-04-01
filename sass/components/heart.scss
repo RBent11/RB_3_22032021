@@ -1,0 +1,58 @@
+
+.heart-icon{
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	right: 20px;
+	font-size: 26px;
+}
+
+
+
+.heart-empty{	
+	z-index: 0;
+	opacity: 1;
+}
+
+.heart-span{
+	color: red;
+	fill: red;
+}
+
+.heart-full{
+	z-index: 0;
+	opacity: 0;
+	// color: red;
+	fill:red;
+	
+	// background: linear-gradient(#9356dc, #ff79da);
+  	// background-clip: text;
+  	
+	transition: 1s;
+	// color: transparent;
+	
+		
+
+	&:hover{
+		opacity: 1;	
+	}
+
+	&:hover ~ .heart-empty{
+		opacity: 0;
+		transition: 0;	
+	}
+}
+
+.heart-empty__menu{
+	top: 2px;
+	right: 0;
+}
+
+.heart-full__menu{
+	top: 0;
+	right: 0;
+}
+
+
+
+
