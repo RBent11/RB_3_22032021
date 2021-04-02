@@ -1,4 +1,5 @@
 @import "../components/heart.scss";
+@import "../components/loader.scss";
 
 #explorer{
 	height: 300px;
@@ -166,6 +167,7 @@
 	top:15px;
 	right: 15px;
 	background-color: #99e2d0;
+	
 	color: #179475;
 	font-size: 12px;
 	width: 70px;
@@ -182,4 +184,10 @@
 	font-size: 30px;
 
 }
+
+
+
+
+
+
 
