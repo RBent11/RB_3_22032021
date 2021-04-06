@@ -11,16 +11,12 @@
   opacity: 1;
 }
 
-.heart-span {
-  color: red;
-  fill: red;
-}
-
 .heart-full {
   z-index: 0;
   opacity: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
   background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-transition: 1s;
   transition: 1s;

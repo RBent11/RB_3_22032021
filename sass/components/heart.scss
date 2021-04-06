@@ -14,22 +14,20 @@
 	opacity: 1;
 }
 
-.heart-span{
-	color: red;
-	fill: red;
-}
+
 
 .heart-full{
 	z-index: 0;
-	opacity: 0;
-	// color: red;
-	// fill:red;
-	
-	background: linear-gradient(#9356dc, #ff79da);
-  	background-clip: text;
-  	
-	transition: 1s;
-	color: transparent;
+	  opacity: 0;
+	  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+	  background: -o-linear-gradient(#9356dc, #ff79da);
+	  background: linear-gradient(#9356dc, #ff79da);
+	  -webkit-background-clip: text;
+	          background-clip: text;
+	  -webkit-transition: 1s;
+	  -o-transition: 1s;
+	  transition: 1s;
+	  color: transparent;
 	
 		
 
@@ -39,7 +37,9 @@
 
 	&:hover ~ .heart-empty{
 		opacity: 0;
-		transition: 0;	
+	  -webkit-transition: 0;
+	  -o-transition: 0;
+	  transition: 0;	
 	}
 }
 
@@ -52,6 +52,8 @@
 	top: 0;
 	right: 0;
 }
+
+
 
 
 
