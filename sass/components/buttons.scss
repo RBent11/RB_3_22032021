@@ -10,6 +10,7 @@ $light-pink:lighten(#ff79da, 1%);
 	border-radius: 30px;
 	background: linear-gradient(#ff79da, #9356dc);
 	border: none;
+	color: #fff;
 	@include shadow;
 	a{
 		color: #fff;
