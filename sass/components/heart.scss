@@ -1,10 +1,11 @@
+@import "../base/colors.scss";
 
 .heart-icon{
 	position: absolute;
-	width: 26px;
-	height: 26px;
+	width: 24px;
+	height: 24px;
 	right: 20px;
-	font-size: 26px;
+	font-size: 24px;
 }
 
 
@@ -19,9 +20,9 @@
 .heart-full{
 	z-index: 0;
 	  opacity: 0;
-	  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
-	  background: -o-linear-gradient(#9356dc, #ff79da);
-	  background: linear-gradient(#9356dc, #ff79da);
+	  background: -webkit-gradient(linear, left top, left bottom, from($purple, to($pink)));
+	  background: -o-linear-gradient($purple, $pink);
+	  background: linear-gradient($purple, $pink);
 	  -webkit-background-clip: text;
 	          background-clip: text;
 	  -webkit-transition: 1s;
@@ -41,12 +42,12 @@
 }
 
 .heart-empty__menu{
-	top: 2px;
+	top: 10px;
 	right: 0;
 }
 
 .heart-full__menu{
-	top: 0;
+	top: 8px;
 	right: 0;
 }
 

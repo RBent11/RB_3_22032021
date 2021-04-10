@@ -2,10 +2,11 @@
   width: 200px;
   height: 50px;
   border-radius: 30px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(#ff79da, #9356dc);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
   border: none;
   color: #fff;
+  font-size: 0.9em;
   -webkit-box-shadow: 1px 5px 10px 0px #b8b4b4;
           box-shadow: 1px 5px 10px 0px #b8b4b4;
 }
@@ -17,7 +18,7 @@
 .gradient-style-button:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#ff7edb), to(#965add));
   background: linear-gradient(#ff7edb, #965add);
-  -webkit-box-shadow: 1px 5px 10px 0px #797272;
-          box-shadow: 1px 5px 10px 0px #797272;
+  -webkit-box-shadow: 1px 5px 10px 0px #938d8d;
+          box-shadow: 1px 5px 10px 0px #938d8d;
 }
 /*# sourceMappingURL=buttons.css.map */

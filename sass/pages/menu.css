@@ -136,6 +136,7 @@
 
 .menu__heading-title {
   font-family: 'Shrikhand', cursive;
+  font-size: 1.7em;
 }
 
 .bg-menu {
@@ -143,8 +144,8 @@
   height: 350px;
   position: absolute;
   z-index: -1;
-  top: 0px;
-  background-size: 100% 100%;
+  top: 60px;
+  background-size: 100% 70%;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -163,10 +164,13 @@
 
 .ne {
   background-image: url("images/restaurants/ne.jpg");
+  background-size: 100% 100%;
+  top: 0;
 }
 
 .menu-part__title {
   margin-bottom: 20px;
+  font-size: 'Roboto-Light';
 }
 
 .greenbar {
@@ -221,8 +225,8 @@
   height: 70px;
   padding: 10px 10px;
   line-height: 25px;
-  -webkit-box-shadow: 1px 5px 10px 0px #aeaeae;
-          box-shadow: 1px 5px 10px 0px #aeaeae;
+  -webkit-box-shadow: 1px 5px 10px 0px #b8b4b4;
+          box-shadow: 1px 5px 10px 0px #b8b4b4;
   border-radius: 20px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -285,6 +289,7 @@
   position: absolute;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-size: 1.1em;
 }
 
 .food__price {
@@ -298,13 +303,15 @@
 .food__description {
   left: 10px;
   right: 0px;
-  top: 30px;
+  top: 35px;
   text-overflow: ellipsis;
   white-space: nowrap;
   position: absolute;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
+  font-family: 'Roboto-Light';
+  font-size: 0.9em;
 }
 
 .menu {

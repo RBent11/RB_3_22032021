@@ -1,9 +1,12 @@
 @import "../components/heart.scss";
 @import "../components/loader.scss";
+@import "../base/colors.scss";
+@import "../base/shadow.scss";
+
 
 #explorer{
 	height: 300px;
-	background-color: #f6f6f6;
+	background-color: $light-grey;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -14,6 +17,11 @@
 
 #explorer > *{
 	margin-bottom: 20px;
+}
+
+.explorer__text{
+	font-family: 'Roboto-Light';
+	font-size: 1.2em;
 }
 
 #fonctionnement{
@@ -30,27 +38,25 @@
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
 	text-align: center;
-  }
+}
   
 .button-step {
-	
 	position: relative;
 	height: 60px;
 	width: 300px;
 	display: flex;
 	border-radius: 18px;
-	box-shadow: 2px 2px 5px 1px #e7e7e7;
+	@include shadow;
 	align-items: center;
 	justify-content: center;
-	background-color: #f6f6f6;
+	background-color: $light-grey;
 	margin-bottom: 30px;
-  }
+}
   
 .number-step {
-	background-color: #9356dc;
+	background-color: $purple;
 	color: white;
 	width: 25px;
 	height: 25px;
@@ -61,38 +67,37 @@
 	position: absolute;
 	left: -12.5px;
 	font-size: 12px;
-  }
+}
   
 .icon-step {
 	margin-right: 0px;
 	width: 20%;
 	display: flex;
 	justify-content: center;
-	color: #878787;
-  }
+	color: $grey-icon;
+}
   
 .text-step {
 	display: flex;
 	width: 70%;
 	font-family: "Roboto-Medium";
 	font-size: 14px;
-  }
+}
   
 .button-step:hover {
-	background-color: #f5edff;
-  }
+	background-color: $ultra-light-purple;
+}
   
 .button-step:hover > .icon-step {
-	color: #9356dc;
-  }
+	color: $purple;
+}
 
 
 #restaurants{
 	height: 100%;
-	background-color: #f6f6f6;
+	background-color: $light-grey;
 	padding-bottom: 30px;
 }
-
 
 .restaurants__choices{
 	height: auto;
@@ -100,7 +105,8 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
- } 
+} 
+
 .restau-box{
     position: relative;
     border-radius: 20px;
@@ -111,8 +117,7 @@
     align-items: flex-end;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    box-shadow: 5px 5px 10px #aaaaaa; 
-	
+    @include shadow;	
 }
 
 .restau-info{
@@ -135,46 +140,40 @@
 .palette{
     background-image: url("Maquettes_Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"); 
     background-size: cover; 
-	background-position-y: -30px; 
-      
+	background-position-y: -30px;       
 }
-
 
 .enchantee{
     background-image: url("Maquettes_Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     background-size: cover;    
-    
-	background-position-y: -140px;
-      
+	background-position-y: -140px;     
 }
 
 .francaise{
     background-image: url("Maquettes_Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");  
     background-size: cover;   
-	background-position-y: -60px; 
-       
+	background-position-y: -60px;       
 }
 
 .delices{
     background-image: url("Maquettes_Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"); 
     background-size: cover;
-	background-position-y: -60px;
-    
+	background-position-y: -60px;  
 }
   
 .new{
 	position: absolute;
 	top:15px;
 	right: 15px;
-	background-color: #99e2d0;
-	
-	color: #179475;
+	background-color: $light-green;
+	color: $dark-green;
 	font-size: 12px;
 	width: 70px;
 	height: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 2px;
 }
 
 .restau-info-icon{
@@ -182,7 +181,6 @@
 	bottom:20px;
 	right: 30px;
 	font-size: 30px;
-
 }
 
 

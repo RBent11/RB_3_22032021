@@ -36,8 +36,8 @@
       -ms-flex-align: center;
           align-items: center;
   height: 60px;
-  -webkit-box-shadow: 0px 2px 5px 1px #D4D4D4;
-          box-shadow: 0px 2px 5px 1px #D4D4D4;
+  -webkit-box-shadow: 1px 5px 10px 0px #b8b4b4;
+          box-shadow: 1px 5px 10px 0px #b8b4b4;
   background-color: white;
 }
 
@@ -57,7 +57,7 @@
 
 .retour {
   position: absolute;
-  top: 25px;
+  top: 22px;
   left: 10px;
 }
 
