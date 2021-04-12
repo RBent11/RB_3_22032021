@@ -148,6 +148,7 @@
   background-size: 100% 70%;
   -webkit-transition: 1s;
   transition: 1s;
+  background-repeat: no-repeat;
 }
 
 .pg {
@@ -176,7 +177,7 @@
 .greenbar {
   width: 40px;
   height: 3px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   margin-top: 5px;
 }
 

@@ -43,6 +43,7 @@
     border-radius: 10px;
     -webkit-box-shadow: 1px 5px 10px 0px #b8b4b4;
             box-shadow: 1px 5px 10px 0px #b8b4b4;
+    background-size: 100% 100%;
   }
   .menu__heading {
     width: 320px;

@@ -302,15 +302,7 @@ a {
   }
 }
 
-.finalLoader {
-  width: 200px;
-  height: 200Px;
-  z-index: -30;
-  position: relative;
-  top: 350px;
-}
-
-.box-loader {
+.bg-loader {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   -webkit-animation: disparition 3s forwards;
@@ -326,6 +318,41 @@ a {
           justify-content: center;
 }
 
+.finalLoader {
+  width: 200px;
+  height: 200Px;
+  position: relative;
+  top: 350px;
+}
+
+.loader1 {
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 50px;
+}
+
+.loader2 {
+  width: 90px;
+  height: 90px;
+  top: 55px;
+  left: 55px;
+}
+
+.loader3 {
+  width: 80px;
+  height: 80px;
+  top: 60px;
+  left: 60px;
+}
+
+.loader4 {
+  width: 70px;
+  height: 70px;
+  top: 65px;
+  left: 65px;
+}
+
 .loader {
   border: 5px solid transparent;
   border-top: 5px solid #9356DC;
@@ -334,41 +361,25 @@ a {
 }
 
 .loader1 {
-  width: 100px;
-  height: 100px;
   border-top: 5px solid #FF79DA;
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
-  top: 50px;
-  left: 50px;
 }
 
 .loader2 {
-  width: 90px;
-  height: 90px;
   -webkit-animation: spin-reverse 1s linear infinite;
           animation: spin-reverse 1s linear infinite;
-  top: 55px;
-  left: 55px;
 }
 
 .loader3 {
-  width: 80px;
-  height: 80px;
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
-  top: 60px;
-  left: 60px;
 }
 
 .loader4 {
   border-top: 5px solid #FF79DA;
-  width: 70px;
-  height: 70px;
   -webkit-animation: spin-reverse 1s linear infinite;
           animation: spin-reverse 1s linear infinite;
-  top: 65px;
-  left: 65px;
 }
 
 #explorer {
@@ -558,25 +569,25 @@ a {
 }
 
 .palette {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-image: url("images/restaurants/pg.jpg");
   background-size: cover;
   background-position-y: -30px;
 }
 
 .enchantee {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-image: url("images/restaurants/ne.jpg");
   background-size: cover;
   background-position-y: -140px;
 }
 
 .francaise {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-image: url("images/restaurants/alf.jpg");
   background-size: cover;
   background-position-y: -60px;
 }
 
 .delices {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-image: url("images/restaurants/ds.jpg");
   background-size: cover;
   background-position-y: -60px;
 }
@@ -585,7 +596,7 @@ a {
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #179475;
   font-size: 12px;
   width: 70px;
@@ -694,6 +705,7 @@ a {
   background-size: 100% 70%;
   -webkit-transition: 1s;
   transition: 1s;
+  background-repeat: no-repeat;
 }
 
 .pg {
@@ -722,7 +734,7 @@ a {
 .greenbar {
   width: 40px;
   height: 3px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   margin-top: 5px;
 }
 
@@ -999,6 +1011,7 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: 1px 5px 10px 0px #b8b4b4;
             box-shadow: 1px 5px 10px 0px #b8b4b4;
+    background-size: 100% 100%;
   }
   .menu__heading {
     width: 320px;

@@ -1,11 +1,10 @@
 @import "colors.scss";
 
 @mixin shadow {
-
     box-shadow: 1px 5px 10px 0px $shadow-light;
-    
 }
 
 @mixin shadow-plus{
     box-shadow: 1px 5px 10px 0px $shadow-dark
 }
+

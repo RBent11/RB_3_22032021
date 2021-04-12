@@ -1,9 +1,9 @@
 .heart-icon {
   position: absolute;
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   right: 20px;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .heart-empty {
@@ -32,12 +32,12 @@
 }
 
 .heart-empty__menu {
-  top: 2px;
+  top: 10px;
   right: 0;
 }
 
 .heart-full__menu {
-  top: 0;
+  top: 8px;
   right: 0;
 }
 
@@ -171,15 +171,7 @@
   }
 }
 
-.finalLoader {
-  width: 200px;
-  height: 200Px;
-  z-index: -30;
-  position: relative;
-  top: 350px;
-}
-
-.box-loader {
+.bg-loader {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   -webkit-animation: disparition 3s forwards;
@@ -193,6 +185,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.finalLoader {
+  width: 200px;
+  height: 200Px;
+  z-index: -30;
+  position: relative;
+  top: 350px;
 }
 
 .loader {
@@ -427,25 +427,25 @@
 }
 
 .palette {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-image: url("images/restaurants/pg.jpg");
   background-size: cover;
   background-position-y: -30px;
 }
 
 .enchantee {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-image: url("images/restaurants/ne.jpg");
   background-size: cover;
   background-position-y: -140px;
 }
 
 .francaise {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-image: url("images/restaurants/alf.jpg");
   background-size: cover;
   background-position-y: -60px;
 }
 
 .delices {
-  background-image: url("Maquettes_Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-image: url("images/restaurants/ds.jpg");
   background-size: cover;
   background-position-y: -60px;
 }
@@ -454,7 +454,7 @@
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #179475;
   font-size: 12px;
   width: 70px;
